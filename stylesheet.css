@@ -1,0 +1,87 @@
+/* ===================================================
+   AUTOBIOGRAPHY WEBPAGE STYLESHEET
+   Requirements: COLOR, BACKGROUND COLOR, TEXT ALIGN
+   =================================================== */
+
+/* Base Page Styling */
+body {
+  background-color: #f0f4f8; /* BACKGROUND COLOR */
+  color: #2d3748;            /* COLOR */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;         /* TEXT ALIGN */
+}
+
+/* Header & Navigation Bar */
+header {
+  background-color: #1a365d; /* BACKGROUND COLOR */
+  color: #ffffff;            /* COLOR */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;        /* TEXT ALIGN */
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  color: #ffffff;            /* COLOR */
+}
+
+nav a {
+  color: #63b3ed;            /* COLOR */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  color: #ffffff;            /* COLOR */
+}
+
+/* Horizontal Dividers */
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #cbd5e0; /* BACKGROUND COLOR */
+  margin: 25px 0;
+}
+
+/* Heading Levels (H1 to H6) */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c5282;            /* COLOR */
+  text-align: center;        /* TEXT ALIGN */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Image Formatting */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 15px auto;         /* Centers images horizontally */
+  max-width: 100%;
+}
+
+/* Text Paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 15px auto;
+  text-align: center;        /* TEXT ALIGN */
+}
+
+/* Unordered & Ordered Lists Alignment */
+ul, ol {
+  display: inline-block;
+  text-align: left;          /* Keeps bullet points neatly aligned */
+  margin: 10px auto 20px auto;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;        /* TEXT ALIGN */
+  color: #718096;            /* COLOR */
+  font-size: 14px;
+}
